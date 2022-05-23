@@ -85,8 +85,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'CLIENT':{
-            "host":"mongodb+srv://Yuvanth:Yuvi0386@cluster0.uyg1u.mongodb.net/test"
-            ,"name":"employees",
+            "host":"mongodb+srv://Yuvanth:Yuvi0386@cluster0.uyg1u.mongodb.net/?retryWrites=true&w=majority",
+            "name":"employees",
             "authmechanism":"SCRAM-SHA-1" #For atlas cloud db
         }
     }
